@@ -1,8 +1,27 @@
 aid: igloo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/igloo.png
 name: igloo
-description: 'igloo is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Financial Services. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Igloo is a full-stack insurtech firm headquartered in Singapore and operating across six
+  Southeast Asian markets (Singapore, Indonesia, the Philippines, Thailand, Malaysia, and Vietnam). It
+  makes insurance simple, accessible, and affordable by embedding coverage into the platforms consumers
+  already use, working with 100+ partners across e-commerce, telecommunications, banking, logistics, and
+  lifestyle (including Shopee, Foodpanda, GCash, AIS, and Siam Commercial Bank). Its product line spans
+  motor, mobile phone, travel, pet, personal accident, cyber, loan protection, e-commerce purchase protection,
+  and blockchain-powered weather-index insurance. Igloo also ships technology platforms for the insurance
+  value chain: Igloo Agent (agency management), Igloo Consumer (direct-to-consumer marketplace), Igloo Partner
+  (affinity distribution), Ignite (digital agent platform), and the Turbo Core insurance operations system.
+  Integration is offered through a partner-facing API program rather than a public self-serve developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/igloo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Financial Services
+- Insurance
+- Insurtech
+- Embedded Insurance
+- Southeast Asia
+- Distribution
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/igloo-domain-security.yml
 - type: Website
   url: https://iglooinsure.com/
+- type: Blog
+  url: https://iglooinsure.com/blog/
+- type: PrivacyPolicy
+  url: https://contents.iglooinsure.com/privacypolicy
+- type: TermsOfService
+  url: https://contents.iglooinsure.com/termsofservice
+- type: About
+  url: https://iglooinsure.com/about/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/iglooinsure
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

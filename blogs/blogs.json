@@ -1,0 +1,21 @@
+{
+  "repo": "igloo",
+  "feeds": [
+    {
+      "source": "https://iglooinsure.com/feed/",
+      "feed_url": "https://iglooinsure.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://iglooinsure.com/",
+      "feed_url": "https://iglooinsure.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-07-25T15:00:33Z"
+}
