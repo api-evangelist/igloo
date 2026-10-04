@@ -45,7 +45,7 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Insurance
 - Insurtech
 - Embedded Insurance
@@ -59,6 +59,7 @@ tags_raw:
 - Embedded Insurance
 - Southeast Asia
 - Distribution
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
